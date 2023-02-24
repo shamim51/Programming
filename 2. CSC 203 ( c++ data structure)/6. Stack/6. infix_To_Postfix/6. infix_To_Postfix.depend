@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1619590702 source:c:\users\shami\c++ programming\csc 203 ( c++ data structure)\6. stack\6. infix_to_postfix\main.cpp
+	<iostream>
+	<stack>
+
