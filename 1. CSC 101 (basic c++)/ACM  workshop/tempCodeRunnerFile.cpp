@@ -1,0 +1,1 @@
+ if(n%r == 0) counter++;
