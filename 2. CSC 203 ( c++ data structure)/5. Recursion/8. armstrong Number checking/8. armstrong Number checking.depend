@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1618434770 source:c:\users\shami\c++ programming\csc 203 ( c++ data structure)\5. recursion\8. armstrong number checking\main.cpp
+	<iostream>
+	<cmath>
+

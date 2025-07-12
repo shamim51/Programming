@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.n_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+
+
+
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo img {
+  width: 100px;
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin: 0 30px;
+}
+
+header {
+  width: 100vw;
+  height: 80vh;
+  background-image: url('./img/background.jpeg');
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header_div {
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.header_div h2 {
+  font-size: 4vmin;
+
+}
+
+.header_div h1 {
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+
+
+.ctn {
+  padding: 10px 15px;
+  background: #6AF2F0;
+  border-radius: 30px;
+  color: whitesmoke;
+  text-align: justify;
+
+}
+
+.ctn1 {
+  padding: 10px 15px;
+  background: white;
+  border-radius: 30px;
+  color: aqua;
+  text-align: center;
+
+
+}
+
+.btn {
+  padding: 10px 15px;
+  background: transparent;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+
+}
+
+section {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 3vmin;
+  padding: 20px;
+
+
+
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+
+}
+
+.row .col {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.intro .row {
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 3vmin;
+  margin: 20px auto;
+  color: aqua;
+
+}
+
+p {
+  padding: 0px 40px;
+  text-align: center;
+
+}
+
+.intro .ctn {
+
+  margin-top: 30px;
+}
+
+span {
+  color: aqua;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.icon-link {
+  margin: 0 10px;
+}
+
+.icon-link img {
+  width: 30px;
+  height: 30px;
+}
+
+.social {
+  background-color: gray;
+  width: 100vw;
+  height: 15vh;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(36, 35, 35);
+  color: #fff;
+  padding: 70px;
+  text-align: center;
+  width: 100vw;
+  height: 20vh;
+}
+
+.bottom {
+  color: grey;
+}
